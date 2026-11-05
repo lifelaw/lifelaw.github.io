@@ -1,6 +1,6 @@
 # 생활법률 AI
 
-**https://c0109391-cell.github.io**
+**https://lifelaw.github.io**
 
 당한 일을 쉽게 적어주세요. 지금 무엇을 해야 하는지 알려드립니다.
 
