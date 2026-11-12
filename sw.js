@@ -1,5 +1,5 @@
 // 앱 화면(정적 파일)만 캐시한다. /api 응답(사건 정보)은 캐시하지 않는다.
-const CACHE = "lifelaw-ai-v8";
+const CACHE = "lifelaw-ai-v9";
 const SHELL = ["./", "./manifest.webmanifest", "./icon.svg", "./icon-192.png"];
 self.addEventListener("install", (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", (e) => {
